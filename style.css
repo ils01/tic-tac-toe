@@ -1,8 +1,4 @@
-@font-face {
-  font-family: "Love Glitch";
-  src: url(./assets/fonts/LoveGlitchPersonalUseRegular-vmEyA.ttf)
-    format("truetype");
-}
+@import url("https://fonts.googleapis.com/css2?family=Odibee+Sans&display=swap");
 *,
 *::before,
 *::after {
@@ -15,7 +11,7 @@ body {
 }
 
 main {
-  font-family: "Love Glitch";
+  font-family: "Odibee Sans", cursive;
   color: gold;
   font-size: 1.5rem;
   height: 100%;
@@ -53,11 +49,12 @@ main {
 }
 
 .option {
+  font-size: 90%;
   border: 1px solid greenyellow;
   border-radius: 1rem;
   color: gold;
   max-width: max-content;
-  padding: 0 0.5rem 0.1rem;
+  padding: 0.2rem 0.5rem 0.2rem;
 }
 .type {
   border-radius: 0.5rem;
@@ -67,7 +64,7 @@ main {
 
 .intro {
   display: grid;
-  row-gap: 1.5rem;
+  row-gap: 2rem;
   max-width: 300px;
   width: max-content;
   padding: 1rem;
@@ -77,13 +74,11 @@ main {
   color: white;
 }
 .asterisk {
-  font-size: 80%;
   color: gold;
   vertical-align: text-top;
 }
 input[type="text"] {
-  width: 8ch;
-  max-width: 90%;
+  width: 15ch;
   font: inherit;
   font-size: 90%;
   outline-color: transparent;
